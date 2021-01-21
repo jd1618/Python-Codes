@@ -1,1 +1,1 @@
-# Project_Euler_Solutions_Python3
+# Project Euler Solutions Python 3
