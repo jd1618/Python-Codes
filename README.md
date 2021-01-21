@@ -1,1 +1,1 @@
-# Project Euler Solutions Python 3
+# Project Euler Problems Python 3
