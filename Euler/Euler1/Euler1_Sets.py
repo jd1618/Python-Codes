@@ -14,4 +14,4 @@ for num in N:
           ': ' + str(func(num)))  
                                                      
 end = time.time()                                   
-print(end - start)                                  
+print('Time execution: ' + str(end - start) + ' s')                                 
