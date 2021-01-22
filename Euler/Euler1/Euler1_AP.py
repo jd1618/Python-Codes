@@ -32,4 +32,4 @@ for num in N:
                      lcm(3, 5)*func(num, 15)))  
                                                      
 end = time.time()                                    
-print(end - start)                                  
+print('Time execution: ' + str(end - start) + ' s')                                
