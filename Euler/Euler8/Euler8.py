@@ -11,7 +11,7 @@ start = time.time()
 def func(num, k):
     adj_prod = []
     prod = 1
-    for i in range(len(str(num)) - k):
+    for i in range(len(str(num)) - k + 1):
         for j in range(k):
             prod *= int(str(num)[i + j])
         adj_prod.append(prod)
