@@ -1,5 +1,5 @@
 # Python Codes
 
-## Part 0. Summary
+## Summary
 
-This repository is a collection of python codes I have written to solve various problems, such as those issued by Codewars, HackerRank, Project Euler, ect. Since it is not my intention to deprive anyone of their own independent learning, I will only present solutions to the first 100 Project Euler challenges. The later puzzles typically require more creativity and persistence to overcome, which I believe is better appreciated when solved independently or with little guidance. 
+This repository is a collection of python codes I have written to solve various problems on different platforms and work towards miscellaneous projects to broaden my exposure to data sciencem, machine learning and quantitaitve finance concepts. 
