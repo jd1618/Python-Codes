@@ -4,6 +4,8 @@ def jumpingOnClouds(c):
   either 1 or 2 entries at a time, but are only allowed to stay at entries with a 1 assigned to them. 
   The outcome is the minimum number of iterations needed to traverse the input list (under the assumption
   there always exists a solution given the parameters of the problem).
+  Time complexity: O(len(c)).
+  Space complexity: O(1).
   '''
   
   i,j=0,1
