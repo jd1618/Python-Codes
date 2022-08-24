@@ -1,6 +1,9 @@
 def addBinary(a,b):
   '''
   A function that takes two binary strings, a and b, and returns the binary sum as a string.
+  Time complexity: O(max(len(a),len(b),N)), where N is the number of times we can apply floor
+  division by 2 to the integer sum of a and b, until we end up at 0.
+  Space complexity: O(1).
   '''
   
   inta,intb=0,0
