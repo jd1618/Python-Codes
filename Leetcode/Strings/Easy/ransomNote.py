@@ -13,7 +13,8 @@ def canConstruct(ransomNote,magazine):
       else:
           hashmap[letter]+=1
   for letter in ransomNote:
-      if ((letter not in hashmap) or (letter in hashmap and hashmap[letter]==0)):
+      if ((letter not in hashmap) 
+      or (letter in hashmap and hashmap[letter]==0)):
           return False
       if letter in hashmap and hashmap[letter]>0:
           hashmap[letter]-=1
