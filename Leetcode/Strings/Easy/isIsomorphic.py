@@ -13,6 +13,6 @@ def isIsomorphic(s,t):
       if s[i] not in hashmap and t[i] not in hashmap.values():
           hashmap[s[i]]=t[i]
       elif ((s[i] not in hashmap and t[i] in hashmap.values())
-            or (s[i] in hashmap and t[i]!=hashmap[s[i]])):
+      or (s[i] in hashmap and t[i]!=hashmap[s[i]])):
           return False
   return True
