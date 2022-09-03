@@ -24,15 +24,15 @@ def findWords(words):
               length+=1
           else:
               if ((letter.lower() in row1 and row==2) 
-                  or (letter.lower() in row1 and row==3)):
+              or (letter.lower() in row1 and row==3)):
                   row,length=0,0
                   break
               elif ((letter.lower() in row2 and row==1) 
-                    or (letter.lower() in row2 and row==3)):
+              or (letter.lower() in row2 and row==3)):
                   row,length=0,0
                   break
               elif ((letter.lower() in row3 and row==1) 
-                    or (letter.lower() in row3 and row==2)):
+              or (letter.lower() in row3 and row==2)):
                   row,length=0,0
                   break
               else:
