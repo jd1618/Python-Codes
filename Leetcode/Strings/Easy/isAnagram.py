@@ -16,7 +16,7 @@ def isAnagram(s,t):
           hashmap[letter]+=1
   for letter in t:
       if ((letter in hashmap and hashmap[letter]==0) 
-          or (letter not in hashmap)):
+      or (letter not in hashmap)):
           return False
       hashmap[letter]-=1
   return True
