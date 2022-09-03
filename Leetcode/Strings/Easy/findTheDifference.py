@@ -13,7 +13,8 @@ def findTheDifference(s,t):
       else:
           hashmap[letter]+=1
   for letter in t:
-      if ((letter not in hashmap) or (letter in hashmap and hashmap[letter]==0)):
+      if ((letter not in hashmap) 
+      or (letter in hashmap and hashmap[letter]==0)):
           return letter
       if (letter in hashmap and hashmap[letter]>0):
           hashmap[letter]-=1
