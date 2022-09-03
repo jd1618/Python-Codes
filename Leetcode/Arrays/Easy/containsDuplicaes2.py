@@ -10,8 +10,8 @@ def containsNearbyDuplicate(nums,k):
   hashmap={}
   for i in range(len(nums)):
       if ((nums[i] not in hashmap) 
-          or (nums[i] in hashmap 
-              and abs(hashmap[nums[i]]-i)>k)):
+      or (nums[i] in hashmap 
+      and abs(hashmap[nums[i]]-i)>k)):
           hashmap[nums[i]]=i
       else:
           return True 
